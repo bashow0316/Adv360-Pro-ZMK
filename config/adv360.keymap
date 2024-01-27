@@ -80,11 +80,11 @@
 
         layer_Extra {
             bindings = <
- &kp PLUS  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans                                                     &kp TILDE  &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp UNDERSCORE
-   &trans           &trans  &trans    &trans      &trans       &trans               &trans                                                        &trans     &trans         &trans    &kp UP_ARROW                &trans                 &trans           &kp PIPE
-   &trans           &trans  &trans    &trans      &trans       &trans               &trans     &trans  &trans                  &trans  &trans      &to 0     &trans       &kp LEFT  &kp DOWN_ARROW             &kp RIGHT              &kp COLON  &kp DOUBLE_QUOTES
-   &trans           &trans  &trans    &trans      &trans       &trans                                  &trans                  &trans                        &trans         &trans   &kp LESS_THAN      &kp GREATER_THAN           &kp QUESTION             &trans
-   &trans           &trans  &trans    &trans      &trans                         &kp SPACE  &kp ENTER  &trans                  &trans  &trans     &trans                    &trans          &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE             &trans
+ &kp PLUS  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans                                                             &kp TILDE         &kp CARET      &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp UNDERSCORE
+   &trans           &trans  &trans    &trans      &trans       &trans               &trans                                                                &trans          &kp PLUS     &kp LEFT_BRACE    &kp UP_ARROW       &kp RIGHT_BRACE              &kp GRAVE           &kp PIPE
+   &trans           &trans  &trans    &trans      &trans       &trans               &trans     &trans  &trans                  &trans      &trans          &to 0         &kp EQUAL           &kp LEFT  &kp DOWN_ARROW             &kp RIGHT              &kp COLON  &kp DOUBLE_QUOTES
+   &trans           &trans  &trans    &trans      &trans       &trans                                  &trans                  &trans                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp LESS_THAN      &kp GREATER_THAN           &kp QUESTION             &trans
+   &trans           &trans  &trans    &trans      &trans                         &kp SPACE  &kp ENTER  &trans                  &trans  &kp DELETE  &kp BACKSPACE                               &trans          &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE             &trans
             >;
         };
 
