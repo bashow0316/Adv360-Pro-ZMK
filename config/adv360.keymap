@@ -80,11 +80,21 @@
 
         layer_Extra {
             bindings = <
- &trans  &caps_word  &caps_word  &caps_word  &caps_word  &caps_word            &caps_word                                                  &caps_word  &caps_word  &caps_word      &caps_word  &caps_word  &caps_word  &caps_word
- &trans      &trans      &trans      &trans      &trans      &trans                &trans                                                      &trans      &trans      &trans    &kp UP_ARROW      &trans      &trans      &trans
- &trans      &trans      &trans      &trans      &trans      &trans                &trans  &trans  &trans                  &trans  &trans      &trans      &trans    &kp LEFT  &kp DOWN_ARROW   &kp RIGHT      &trans      &trans
- &trans      &trans      &trans      &trans      &trans      &trans                                &trans                  &trans                          &trans      &trans          &trans      &trans      &trans      &trans
- &trans      &trans      &trans      &trans      &trans                            &trans  &trans  &trans                  &trans  &trans      &trans                  &trans          &trans      &trans      &trans      &trans
+ &kp PLUS  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans                                                     &kp TILDE   &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+   &trans           &trans  &trans    &trans      &trans       &trans               &trans                                                        &trans  &caps_word     &caps_word    &kp UP_ARROW            &caps_word             &caps_word          &trans
+   &trans           &trans  &trans    &trans      &trans       &trans               &trans     &trans  &trans                  &trans  &trans      &to 0      &trans       &kp LEFT  &kp DOWN_ARROW             &kp RIGHT                 &trans          &trans
+   &trans           &trans  &trans    &trans      &trans       &trans                                  &trans                  &trans                         &trans         &trans          &trans                &trans                 &trans          &trans
+   &trans           &trans  &trans    &trans      &trans                         &kp SPACE  &kp ENTER  &trans                  &trans  &trans     &trans                     &trans          &trans                &trans                 &trans          &trans
+            >;
+        };
+
+        layer_Layer__5 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
